@@ -29,6 +29,48 @@ section#lista > li {
     vertical-align: bottom;
 }
 section#lista a:hover{
-    opacity: 0.5;
+    opacity: 0.2;
     transition-duration: 0.8s;
+}
+header{
+    background-color: red;
+    display: flex;
+    text-align: center;
+    padding: 15px;
+    align-items: center;
+    box-shadow: 1px 1px 1px rgba(0, 0, 0, 0.377);
+}
+header> a >img {
+    width: 10%;
+    width: 180px;
+    color: white;
+    vertical-align: bottom;
+}
+#search{
+    padding: 10px;
+    outline: none;
+    border: none;
+}
+#search::placeholder{
+    font-size: 1.3em;
+    text-shadow: 1px 0px 2px rgba(0, 0, 0, 0.5);
+}
+#pesquisar{
+    background-color: white;
+    border: 2px solid rgb(255, 255, 255);
+    padding: 5px;
+    width: 800px;
+    height: 45px;
+    display: flex;
+    justify-content: space-between ;
+    margin-left: 20px;
+    border-radius: 10px;
+    vertical-align: bottom;
+}
+#icone-pesquisar{
+    width: 20px;
+    height: 20px;
+    margin-top: 10px;
+    padding: 0;
+    vertical-align: baseline;
 }
