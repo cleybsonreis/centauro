@@ -1,0 +1,34 @@
+@charset "UTF-8"; 
+*{
+    margin: 0;
+    padding: 0;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+section#lista{
+    background-color: #a70a13;
+    list-style-type: none;  
+    padding: 10px;
+    font-size: 0.8em;
+    font-weight: bolde;
+}
+section#lista > ul > li > a {
+    color: white;
+    text-decoration: none;
+}
+section#lista > ul {
+    list-style-type: none;
+    display: flex;
+    justify-content: space-between;
+}
+section#lista > li {
+    list-style-type: none;
+    
+}
+.material-symbols-outlined{
+    vertical-align: bottom;
+}
+section#lista a:hover{
+    opacity: 0.5;
+    transition-duration: 0.8s;
+}
